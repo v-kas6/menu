@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant menu </title>
+    <script src="script.js " defer></script>
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#f1f5f8]">
+   <section class="flex flex-col  my-16 items-center gap-y-12 ">
+        <div class="flex flex-col items-center gap-y-2">
+            <div class=" font-['roboto'] font-semibold text-5xl max-[700px]:text-xl  tracking-widest	">
+                <h1>Our Menu</h1>
+            </div>
+            <div class="w-24 h-1 bg-[#c59d5f]"></div>
+        </div>
+        <div class="flex flex-row gap-x-9 max-[700px]:gap-x-2 text-[#c59d5f]">
+            <button class=" all py-1.5 max-[700px]:py-0.5 px-4 max-[700px]:px-1 border-t-[#c59d5f]  border-l-[#c59d5f] border-b-[#856e4e] border-r-[#856e4e] hover:bg-[#c59d5f] hover:text-white duration-500  border-[3px] text-xl max-[700px]:text-xs  rounded-lg  self-center" >All</button>
+            <button class=" breakfast py-1.5 max-[700px]:py-0.5 px-4 max-[700px]:px-1 border-t-[#c59d5f]  border-l-[#c59d5f] border-b-[#856e4e] border-r-[#856e4e] hover:bg-[#c59d5f] hover:text-white duration-500  border-[3px] text-xl max-[700px]:text-xs rounded-lg  self-center" >BreakFast</button>
+            <button class=" lunch py-1.5 max-[700px]:py-0.5 px-4 max-[700px]:px-1 border-t-[#c59d5f]  border-l-[#c59d5f] border-b-[#856e4e] border-r-[#856e4e] hover:bg-[#c59d5f] hover:text-white duration-500  border-[3px] text-xl max-[700px]:text-xs rounded-lg  self-center">Lunch</button>
+            <button class=" shakes py-1.5 max-[700px]:py-0.5 px-4 max-[700px]:px-1 border-t-[#c59d5f]  border-l-[#c59d5f] border-b-[#856e4e] border-r-[#856e4e] hover:bg-[#c59d5f] hover:text-white duration-500  border-[3px] text-xl max-[700px]:text-xs rounded-lg  self-center">Shakes</button>
+            <button class=" dinner py-1.5 max-[700px]:py-0.5 px-4 max-[700px]:px-1 border-t-[#c59d5f]  border-l-[#c59d5f] border-b-[#856e4e] border-r-[#856e4e] hover:bg-[#c59d5f] hover:text-white duration-500  border-[3px] text-xl max-[700px]:text-xs rounded-lg  self-center">Dinner</button>
+        </div>
+   </section>
+   <main class="grid gap-4  grid-cols-[650px_650px] max-[1400px]:grid-cols-[650px] max-[700px]:grid-cols-[1fr] justify-center mx-24 max-[700px]:mx-2  mb-24">
+    <article id="original" class="grid gap-4  mb-10 grid-auto-col max-[700px]:grid-auto-row max-[700px]:grid-cols-[1fr] max-[700px]:justify-items-center   grid-cols-[245px_400px]">
+        <div class="w-60 h-40 rounded-md border-4 overflow-hidden border-[#c59d5f]">
+            <img class="w-60 h-40 object-cover " src="" alt="">
+        </div>
+        <div class="pr-10 max-[700px]:pr-6 max-[700px]:pl-6">
+            <div class="title">
+                <div class="flex justify-between flex-row ">
+                    <h1 class="font-['roboto'] font-semibold text-lg tracking-[.25em]"></h1>
+                    <h1 class="font-['roboto'] text-[#c59d5f] text-xl tracking-[.25em] font-semibold "></h1>
+                </div>
+                <hr>
+            </div>
+            <div>
+                <p class="font-['roboto'] text-lg text-[#617d98] pt-4"> </p>
+            </div>
+        </div>
+    </article>
+   </main>
+
+</body>
+</html>
