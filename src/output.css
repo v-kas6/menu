@@ -778,8 +778,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (max-width: 1400px) {
-  .max-\[1400px\]\:grid-cols-\[650px\] {
+@media (max-width: 1300px) {
+  .max-\[1300px\]\:grid-cols-\[650px\] {
+    grid-template-columns: 650px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .max-\[1000px\]\:grid-cols-\[650px\] {
     grid-template-columns: 650px;
   }
 }
